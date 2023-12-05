@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+*{
+    padding: 0;
+    margin: 0;
+   
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav{
+    background-color:whitesmoke;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    overflow: hidden;
+    padding-inline: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.navLinks{
+   
+   font-size: 20px;
+   background-color: wheat;
+   padding: 15px; 
+   
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+
+
+
+
+
+.products{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 40px;
 }
 
-.App-link {
-  color: #61dafb;
+.product{
+    background-color: grey;
+    width: 15vw;
+    height: 40vh;
+    border-radius: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.servicesBox{
+    display: flex;
+    margin: 20px;
+    padding: 40px;
+    justify-content: space-between;
+}
+
+.serviceBox{
+    
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 18vw;
+    height: 40vh;
+    text-align: center;
+    align-items: center;
+}
+
+.serviceDiv{
+    width:16vw;
+    height:16vh;
+    background-color: grey;
+   
 }
