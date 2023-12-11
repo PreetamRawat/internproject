@@ -1,35 +1,13 @@
 import React from 'react'
-
-import Navbar from './components/Navbar';
-import Products from './components/Products';
-import Services from './components/Services';
-
-
+import sunset from './Assets/sunset.jpg'
+import "./App.css"
 function App() {
   
 
   return (
     <>
-      <Navbar /> 
-    
-      <section style={{height:'30vh',backgroundColor:'grey'}}></section>
-      <br/>
-      <div style={{textAlign:'center'}}>
-        <p>lorum ipsum dolor</p>
-        <h3>Products</h3>
-      </div>
-      <br/>
-      <Products />
-      
-      <br/>
-      <div style={{textAlign:'center'}}>
-        <p>lorum ipsum dolor</p>
-        <h3>Services</h3>
-      </div>
-      <br/>
-      
-      <Services />
-    
+      <h1>React App</h1>
+      <img src={sunset} alt='loading....' style={{width:"100%"}} />
     </>
   );
 }

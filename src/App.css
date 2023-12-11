@@ -4,25 +4,6 @@
    
 }
 
-nav{
-    background-color:whitesmoke;
-    height: 10vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center; 
-    overflow: hidden;
-    padding-inline: 50px;
-}
-
-
-.navLinks{
-   
-   font-size: 20px;
-   background-color: wheat;
-   padding: 15px; 
-   
-
-}
 
 
 
@@ -30,40 +11,6 @@ nav{
 
 
 
-.products{
-  display: flex;
-  justify-content: space-between;
-  margin: 10px;
-  padding: 40px;
-}
 
-.product{
-    background-color: grey;
-    width: 15vw;
-    height: 40vh;
-    border-radius: 5px;
-}
 
-.servicesBox{
-    display: flex;
-    margin: 20px;
-    padding: 40px;
-    justify-content: space-between;
-}
 
-.serviceBox{
-    
-    border: 1px solid black;
-    border-radius: 5px;
-    width: 18vw;
-    height: 40vh;
-    text-align: center;
-    align-items: center;
-}
-
-.serviceDiv{
-    width:16vw;
-    height:16vh;
-    background-color: grey;
-   
-}
