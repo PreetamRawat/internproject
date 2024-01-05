@@ -3,12 +3,15 @@
     margin: 0;
    
 }
-img{
-    width:60vw;
-    height: 600px;
-}
-
-
+ .myButton{
+    color: white;
+    background-color: blue;
+    width: 20vw;
+    height: 10vh;
+    font-size: 20px;
+    border: none;
+    border-radius:20px;
+ }
 
 
 

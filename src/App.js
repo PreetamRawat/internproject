@@ -3,20 +3,14 @@ import Image from './components/Image';
 import "./App.css"
 function App() {
 
-  let guest = 0;
+  const MyButton=()=>{
+     return <button className='myButton'> Click On Me</button>
+  } 
 
-  function Cup({guest}){
-    // guest = guest+1
-    return <>
-      <h2>Tea cup for guest #{guest}</h2>
-    </>
-  }
-  
 return (
     <>
-      <Cup guest={1}/>
-      <Cup guest={2}/>
-      <Cup guest={3}/>
+       <h2>Welcome To React App</h2>
+        <MyButton />
     </>
   );
 }
