@@ -1,18 +1,22 @@
 import React from 'react'
-import sunset from './Assets/sunset.jpg'
+import Image from './components/Image';
 import "./App.css"
 function App() {
-  
-  const Imagecomp =()=>{
-    return(
-      <img src={sunset} alt='loading....' style={{width:"100%"}} />
-    )
-  }
 
-  return (
+  let guest = 0;
+
+  function Cup({guest}){
+    // guest = guest+1
+    return <>
+      <h2>Tea cup for guest #{guest}</h2>
+    </>
+  }
+  
+return (
     <>
-      <h1>React App</h1>
-      <Imagecomp />
+      <Cup guest={1}/>
+      <Cup guest={2}/>
+      <Cup guest={3}/>
     </>
   );
 }
